@@ -22,29 +22,3 @@ module.exports.registerUser = function(request,response) {
         }
     });
 }
-// module.exports.registerUser;
-// module.exports.registerUser;
-
-// var dbConnection = require('./../config/dbconnection');
-
-// module.exports.registerUser=function(req,res){
-//     var user={
-//         "name":req.body.name,
-//         "email":req.body.email,
-//         "password":req.body.password
-//     }
-//     dbConnection.query('INSERT INTO users SET ?',user, function (error, results, fields) {
-//       if (error) {
-//         res.json({
-//             status:false,
-//             message:'there are some error with query'
-//         })
-//       }else{
-//           res.json({
-//             status:true,
-//             data:results,
-//             message:'user registered sucessfully'
-//         })
-//       }
-//     });
-// }
